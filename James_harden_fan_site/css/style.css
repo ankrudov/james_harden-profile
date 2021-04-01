@@ -1,0 +1,77 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom,rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+    border: 3px solid black;
+}
+img:hover {
+    transform: scaleX(-1);
+    
+}
+body {
+    background: linear-gradient(#ce1141,#000000);
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: beige;
+    font-size: 4vw;
+    text-align: center;
+    font-family: garamond;
+}
+
+p {
+    color: white;
+    font-size: 2vw;
+}
+hr {
+    border-top: 1vw dotted rgb(241, 100, 18);
+    border-bottom: none;
+
+}
+/********animation********/
+
+@keyframes james {
+    0% {background-color: rgb(189, 79, 79);}
+  25%  {background-color: rgb(255, 255, 255);}
+  50%  {background-color: rgb(142, 218, 253);}
+  100% {background-color: rgb(0, 0, 0);}
+}
+/********Class selectors********/
+.name1 {
+    text-align: left;
+    color: white;
+    cursor: crosshair;
+    font-family: garamond;
+    font-size: 3vw;
+    animation-name: james;
+    animation-duration: 15s;
+
+}
+
+.name2 {
+    text-align: left;
+    color: white;
+    cursor: crosshair;
+    font-family: garamond;
+    font-size: 2vw;
+
+}
+
+.list {
+    text-align: center;
+    color: aliceblue;
+    font-size: 2vw;
+    padding-left: 0;
+    list-style-position: inside;
+
+}
